@@ -1,0 +1,378 @@
+.bgimagee{
+    object-fit: cover;
+    height: 705px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#SignIn{
+    color: white;
+    background-color: red;
+    opacity: 0.8;
+    border:1px solid red;
+    padding: 1% 3%;
+    border-radius: 7px;
+}
+#logo{
+    width: 16%;
+    margin-left: 10%;
+    
+}
+option{
+    background-color: white;
+    color: white;
+}
+select{
+    background-color: black;
+    color: white;
+    padding: 1% 3%;
+    margin-right: 5% !important;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 705px;
+    padding-top: 2%;
+    background-color: rgba(0,0,0,0.7);
+   /* z-index: 1;*/
+    border-bottom: 9px solid rgb(55, 55, 55);
+}
+#para1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+#topcontent{
+    padding: 10% 10% ;
+    text-align: center;
+}
+#para2{
+    color: white;
+    font-size: 28px;
+}
+#para3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+#emailblock{
+    background-color: rgba(75, 73, 73, 0.3);
+    border:0.2px solid rgb(191, 189, 189);
+    color: white;
+    border-radius: 5px;
+    width:40% ;
+    margin-left: 18% !important;
+}
+#getstarted{
+    color: white;
+    background-color: red;
+    border:1px solid red;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 1% 5%;
+    margin-left: 1%;
+    opacity: 0.8;
+    font-size: 25px;
+}
+#getstarted:hover{
+    background-color: rgb(183, 14, 14);
+}
+.paras{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    font-weight: bold;
+    padding: 0% 12%;
+
+}
+.smallparas{
+    color:white;
+    font-size: 24px;
+    padding: 0% 12%;
+
+}
+.below_card{
+    background-color: black;
+    padding: 70px 45px;
+    border-bottom: 9px solid #222;
+    justify-content: center;
+
+
+}
+.devices{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 50px;
+}
+
+#devices-video{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    max-width: 63%;
+    max-height: 47%;
+    top: 34%;
+    transform: translate(-50%, -50%);
+}
+
+.clip2{
+    width: 45%;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.clip2 img{
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    z-index: 10;
+}
+
+.television{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 70px 45px;
+}
+
+.television-container{
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+
+#television-heading{
+    font-size: 3.125rem;
+
+}
+
+.clip{
+    width: 45%;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.description p{
+    font-size: 1.625rem;
+}
+
+.clip img{
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    z-index: 10;
+}
+
+#television-video{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    width: 73%;
+    height: 55%;
+}
+#secondimage{
+    width: 100%;
+    position: relative;
+}
+#giff{
+    position: absolute;
+    top:246%;
+    left:36%;
+    width: 5%;
+}
+.accordianbg{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 0px 45px;
+}
+#frequently{
+    color: white;
+    font-size: 3.125rem;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: bolder;
+}
+.accordion {
+    background-color:  rgb(25, 24, 24);
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    padding-right: 35px !important;
+    width: 80% !important;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+    margin:8px 10%;
+  }
+  
+  .active, .accordion:hover {
+    background-color:rgb(60, 60, 60); 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+      background-color: rgb(25, 24, 24);
+      color:white;
+      margin:3px 10%;
+      margin-top: -7px !important;
+width: 80% !important;
+      margin-bottom: 5px;
+      font-size: 20px;
+  
+  }
+  .accordion:after {
+    content: "\002B";        font-size: 24px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\00D7";
+    font-size: 24px;
+  }
+  .footerbg{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 70px 10%;
+    color: gray;
+    font-size: 16px;
+    ;
+    font-weight: 500;
+  }
+  .footerbg a{
+    color: gray;
+  }
+  .footerbg li{
+    list-style: none;
+    line-height: 40px !important;
+  }
+@media only screen and (max-width: 425px){
+    .bgimagee{
+        height: 100vh ;
+        
+    }
+    #logo{
+        width: 90px ;
+    }
+    .top{
+        height: 100vh ;
+        padding-top: 8% ;
+        }
+    #para1{
+
+        font-size: 28px ;
+        margin-bottom: 2% ;
+    
+    }
+    #topcontent{
+        padding: 23% 10% ;
+    
+    }
+    #para2{
+        font-size: 19px ;
+    }
+    #para3{
+        font-size: 20px ;
+    }
+    #emailblock{
+        width: fit-content ;
+        padding: 3% 1% ;
+      display: block;
+      margin-bottom: 4%;
+      margin-left: 15% !important;
+    }
+    #getstarted{
+        font-size: 20px ;
+        padding: 2% 5% ;
+        margin-left: 30% ;
+    }
+    
+    #television-para{
+        font-size: 16.7px ;
+        margin: 0% 0%;
+        text-align: center;
+    }
+
+    .television-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .clip, .description{
+        width: 110%;
+    }
+    
+    #television-heading{
+        font-size: 29px;
+    
+    }
+    .paras{
+    
+        font-size: 27px;
+        margin-bottom: 0%;
+        padding: 0% 0% !important;
+        text-align: center;
+        margin-top: 1%;
+    
+    }
+    .smallparas{
+        
+        font-size: 14px;
+        padding: 0% 0% !important;
+        text-align: center;
+        margin-top: 1%;
+    
+    }
+    #frequently{
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+    .panel {
+        
+        margin:3px 0% !important;
+  width: 100%  !important;
+        margin-bottom: 5px;
+        font-size: 17px;
+    
+    }
+    .accordion {
+        
+        width: 100% !important;
+        font-size: 18px;
+        margin:8px 0%;
+      }
+}
+@media only screen and (max-width: 770px){
+    #giff{
+        visibility: hidden;
+    }
+    
+}
