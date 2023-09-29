@@ -368,6 +368,11 @@ width: 80% !important;
         font-size: 18px;
         margin:8px 0%;
       }
+      .clip2{
+        width: 100% !important;
+        
+        max-width: 900px;
+    }
 }
 @media only screen and (max-width: 770px){
     #giff{
